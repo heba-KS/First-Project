@@ -1,0 +1,79 @@
+
+
+body {
+    background-color: #f8f9fa;
+}
+
+
+
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+
+
+
+.summary-card {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.summary-card h5 {
+    margin-bottom: 15px;
+}
+
+.summary-value {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+
+.card {
+    border-radius: 10px;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+
+
+
+.table {
+    vertical-align: middle;
+}
+
+.table th {
+    white-space: nowrap;
+}
+
+
+
+
+.edit-btn,
+.delete-btn {
+    min-width: 65px;
+}
+
+
+
+
+#loadingSpinner {
+    margin: 20px 0;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .summary-value {
+        font-size: 26px;
+    }
+
+    .table {
+        font-size: 14px;
+    }
+
+}
